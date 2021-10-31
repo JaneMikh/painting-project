@@ -1,0 +1,8 @@
+.header {
+  background-color: $dark;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 220px 130px 160px;
+  height: 640px;
+  @include flex(space-between, center, row, nowrap);
+}

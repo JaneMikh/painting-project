@@ -1,0 +1,13 @@
+.footer__button {
+  width: 470px;
+  height: 54px;
+  background-color: $white;
+  color: $dark;
+  text-align: center;
+  transition: opacity 0.2s linear 0.1s;
+  @include font-style('Inter-Semi-Bold', 600, normal, 16px, 24px);
+}
+
+.footer__button:hover {
+  opacity: 0.93;
+}

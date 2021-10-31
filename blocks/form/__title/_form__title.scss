@@ -1,0 +1,7 @@
+.form__title {
+  max-width: 500px;
+  margin: 0 0 20px;
+  text-align: center;
+  color: $dark;
+  @include font-style('Inter-Semi-Bold', 600, normal, 32px, 38px);
+}

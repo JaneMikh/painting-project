@@ -1,0 +1,14 @@
+.form__input {
+  width: 100%;
+  background-color: $white;
+  border-radius: 8px;
+  box-sizing: border-box;
+  border: 0;
+  padding: 15px 20px;
+  color: rgba($black, 0.3);
+  @include font-style('Inter-Regular', 400, normal, 16px, 24px);
+  @include placeholder {
+    color: rgba($black, 0.3);
+    @include font-style('Inter-Regular', 400, normal, 16px, 24px);
+  }
+}

@@ -1,0 +1,9 @@
+.gallery__image {
+  width: 350px;
+  height: 709px;
+  margin-right: 25px;
+}
+
+.gallery__image:last-of-type {
+  margin-right: 0;
+}

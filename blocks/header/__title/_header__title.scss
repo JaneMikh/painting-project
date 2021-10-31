@@ -1,0 +1,5 @@
+.header__title {
+  @include font-style("Inter-Bold", 700, normal, 60px, 69px);
+  color: $white;
+  margin: 60px 0 28px;
+}

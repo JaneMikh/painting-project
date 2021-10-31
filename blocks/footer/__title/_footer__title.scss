@@ -1,0 +1,5 @@
+.footer__title {
+  margin: 0 0 20px;
+  color: $white;
+  @include font-style('Inter-Semi-Bold', 600, normal, 32px, 38px);
+}

@@ -10,67 +10,74 @@
 </head>
 <body class="page">
   <header class="header">
-    <a href="#" target="_blank" class="header__link">
-      <img src="./images/logo.svg" alt="Логотип" class="header__logo">
-    </a>
-    <h1 class="header__title">Не умеете рисовать? Не беда!</h1>
-    <p class="header__subtitle">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</p>
-    <button type="button" name="more-detailes" class="button header__button">Подробнее</button>
-    <img src="./images/header_image.jpg" alt="" class="header__image">
+    <div class="header__info">
+      <a href="#" target="_blank" class="header__link">
+        <img src="./images/logo.svg" alt="Логотип" class="header__logo">
+      </a>
+      <h1 class="header__title">Не умеете рисовать? Не беда!</h1>
+      <p class="header__subtitle">С помощью нашего приложения вы можете чиркануть каляку и получить шедевр.</p>
+      <button type="button" name="more-detailes" class="button header__button">Подробнее</button>
+    </div>
+    <img src="./images/header_image.png" alt="#" class="header__image">
   </header>
   <main class="content">
-    <section сlass="features">
-      <div class="feature__item">
-        <p class="feature__name">AI</p>
-        <h2 class="feature__title">Умный интелект приложения</h2>
-        <p class="feature__description">С помощью AI приложение анализирует картины мастеров и современных практиков рисования,
-        и достраивает картину за вас.</p>
+    <section class="cards">
+      <div class="card">
+        <p class="card__name">AI</p>
+        <h2 class="card__title">Умный интелект приложения</h2>
+        <p class="card__description">С помощью AI приложение анализирует картины мастеров и современных практиков рисования, и достраивает картину за вас.</p>
       </div>
-      <div class="feature__item">
-        <p class="fearure__name">Ч/Б и Цвет</p>
-        <h2 class="fearure__title">Рисуйте в любом стиле</h2>
-        <p class="fearure__description">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.</p>
+      <div class="card">
+        <p class="card__name">Ч/Б и Цвет</p>
+        <h2 class="card__title">Рисуйте в любом стиле</h2>
+        <p class="card__description">Будь то карандашная каляка-маляка или цветное произведение, приложение поможет в любой ситуации.</p>
       </div>
+      <p class="card__text">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</p>
     </section>
     <section class="gallery">
-      <p class="galary__title">Чик-чирик и ваша каляка превращается в изумительное произведение искусства.</p>
-      <img src="./images/gallery_image_one.jpg" alt="Рисунок на экране смартфона" class="gallery__image">
-      <img src="./images/gallery_image_two.jpg" alt="Рисунок на экране смартфона" class="gallery__image">
-      <img src="./images/gallery_image_three.jpg" alt="Рисунок на экране смартфона" class="gallery__image">
+      <div class="gallery__items">
+        <img src="./images/gallery_image_one.png" alt="Рисунок на экране смартфона" class="gallery__image">
+        <img src="./images/gallery_image_two.png" alt="Рисунок на экране смартфона" class="gallery__image">
+        <img src="./images/gallery_image_three.png" alt="Рисунок на экране смартфона" class="gallery__image">
+      </div>
     </section>
-    <section class="features">
-      <div class="feature__item">
-        <p class="feature__name">Быстро</p>
-        <h2 class="feature__title">Проблем с рисованием — нет</h2>
-        <p class="feature__description">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...</p>
+    <section class="cards">
+      <div class="card">
+        <p class="card__name">Быстро</p>
+        <h2 class="card__title">Проблем с рисованием — нет</h2>
+        <p class="card__description">Рисуйте в приложении доступными кистями: карандаш, маркер, линер, масляная кисть и многие другие...</p>
       </div>
-      <div class="feature__item">
-        <p class="fearure__name">Просто</p>
-        <h2 class="fearure__title">Нарисовали, преобразовали, сохранили</h2>
-        <p class="fearure__description">Раз, два, три, больше нечего тут рассказать.</p>
+      <div class="card">
+        <p class="card__name">Просто</p>
+        <h2 class="card__title">Нарисовали, преобразовали, сохранили</h2>
+        <p class="card__description">Раз, два, три, больше нечего тут рассказать.</p>
       </div>
-      <p class="#">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</p>
+      <p class="card__text">Качайте приложение и улучшайте свои художества, а потом хвастайтесь ими!</p>
     </section>
     <section class="form">
       <h2 class="form__title">Хотите нам что-то посоветовать?</h2>
       <p class="form__subtitle">Оставьте заявку и мы свяжемся с вами.</p>
-      <label for="user-name" class="form__label">
-        <input type="text" id="user-name" name="user-name" placeholder="Ваше имя" class="form__input">
-      </label>
-      <label for="user-email" class="form__label">
-        <input type="text" id="user-email" name="user-email" placeholder="Контактный Email" class="form__input">
-      </label>
-      <label for="user-message" class="form__label">
-        <input type="text" id="user-message" name="user-message" placeholder="Сообщение" class="form__input">
-      </label>
+      <div class="form__conteiner">
+        <label for="user-name" class="form__label">
+          <input type="text" id="user-name" name="user-name" placeholder="Ваше имя" class="form__input">
+        </label>
+        <label for="user-email" class="form__label">
+          <input type="text" id="user-email" name="user-email" placeholder="Контактный Email" class="form__input">
+        </label>
+        <label for="user-message" class="form__label form__label_type_message">
+          <input type="text" id="user-message" name="user-message" placeholder="Сообщение" class="form__input form__input_type_message">
+        </label>
+      </div>
       <button type="submit" name="submit" class="button form__button">Оставить заявку</button>
     </section>
   </main>
   <footer class="footer">
-    <h2 class="footer__title">Хотите скачать приложение?</h2>
-    <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
-    <button type="button" name="download-app" class="button footer__button">Уже скоро!</button>
-    <img src="./images/footer_image.jpg" alt="Лайк" class="footer__image">
+    <div class="footer__conteiner">
+      <h2 class="footer__title">Хотите скачать приложение?</h2>
+      <p class="footer__subtitle">Качайте в ЭпСтор и ГуглПлэй.</p>
+      <button type="button" name="download-app" class="button footer__button">Уже скоро!</button>
+    </div>
+    <img src="./images/footer_image.png" alt="Лайк" class="footer__image">
   </footer>
 </body>
 </html>

@@ -1,0 +1,6 @@
+.card__text {
+  max-width: 1103px;
+  @include font-style("Inter-Semi-Bold", 600, normal, 60px, 68px);
+  color: $black;
+  margin: 120px auto;
+}

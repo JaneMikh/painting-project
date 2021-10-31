@@ -1,0 +1,6 @@
+.header__subtitle {
+  @include font-style("Inter-Regular", 400, normal, 18px, 26px);
+  max-width: 450px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0 0 108px;
+}
