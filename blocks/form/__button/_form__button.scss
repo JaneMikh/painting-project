@@ -9,6 +9,17 @@
   color: $white;
   transition: opacity 0.2s linear 0.1s;
   @include font-style('Inter-Semi-Bold', 600, normal, 16px, 24px);
+
+  @include tablet {
+    margin: 50px auto 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  @include mobile {
+    font-size: 12px;
+  }
 }
 
 .form__button:hover {

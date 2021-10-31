@@ -28,13 +28,16 @@
 @import "../blocks/gallery/gallery";
 @import "../blocks/gallery/__items/gallery__items";
 @import "../blocks/gallery/__image/gallery__image";
+@import "../blocks/gallery/__image/_closed/gallery__image_closed";
 /*block form*/
 @import "../blocks/form/form";
 @import "../blocks/form/__title/form__title";
 @import "../blocks/form/__subtitle/form__subtitle";
 @import "../blocks/form/__conteiner/form__conteiner";
-@import "../blocks/form/__label/form__label_type_message";
 @import "../blocks/form/__input/form__input";
+@import "../blocks/form/__label/_type/form__label_type_name";
+@import "../blocks/form/__label/_type/form__label_type_email";
+@import "../blocks/form/__label/_type/form__label_type_message";
 @import "../blocks/form/__input/_type/form__input_type_message";
 @import "../blocks/form/__button/form__button";
 /*block footer*/

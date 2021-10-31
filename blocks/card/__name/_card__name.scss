@@ -2,4 +2,9 @@
   @include font-style("Inter-Medium", 500, normal, 18px, 20px);
   color: rgba($black, 0.6);
   margin: 0;
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }

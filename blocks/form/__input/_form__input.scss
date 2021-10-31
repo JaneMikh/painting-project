@@ -11,4 +11,15 @@
     color: rgba($black, 0.3);
     @include font-style('Inter-Regular', 400, normal, 16px, 24px);
   }
+
+  @include mobile {
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 24px;
+
+    @include placeholder {
+      font-size: 12px;
+      line-height: 24px;
+    }
+  }
 }

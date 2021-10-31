@@ -2,4 +2,14 @@
   width: 311px;
   height: 500px;
   margin-top: -90px;
+
+  @include tablet {
+    width: 250px;
+    height: 440px;
+  }
+
+  @include mobile {
+    width: 0;
+    height: 0;
+  }
 }

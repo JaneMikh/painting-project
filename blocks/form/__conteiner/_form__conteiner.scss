@@ -1,4 +1,11 @@
 .form__conteiner {
-  width: 89%;
+  width: 100%;
   @include grid(repeat(2, 48%), repeat(2, auto), 40px, 20px);
+
+  @include tablet {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, auto);
+    grid-row-gap: 20px;
+  }
+
 }

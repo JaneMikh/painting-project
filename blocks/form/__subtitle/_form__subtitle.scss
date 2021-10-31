@@ -4,4 +4,13 @@
   text-align: center;
   color: rgba($black, 0.6);
   @include font-style('Inter-Regular', 400, normal, 16px, 24px);
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  @include mobile {
+    margin-bottom: 80px;
+  }
 }

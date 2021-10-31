@@ -1,6 +1,17 @@
 .header__image {
   width: 311px;
   height: 630px;
-  margin-top: 170px;
-  margin-left: 82px;
+  margin: 10px 0 -30px 82px;
+
+  @include tablet {
+    width: 250px;
+    height: 502px;
+    margin: 90px 0 0;
+  }
+
+  @include mobile {
+    width: 260px;
+    height: 522px;
+    margin: 0 auto 50px;
+  }
 }

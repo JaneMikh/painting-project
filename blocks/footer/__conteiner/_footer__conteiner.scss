@@ -1,3 +1,11 @@
 .footer__conteiner {
   max-width: 460px;
+
+  @include tablet-two {
+    max-width: 300px;
+  }
+
+  @include mobile {
+    max-width: 260px;
+  }
 }

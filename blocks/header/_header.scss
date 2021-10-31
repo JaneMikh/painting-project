@@ -1,8 +1,25 @@
 .header {
+  width: 98.6%;
+  height: 640px;
+  margin: 10px auto 0;
   background-color: $dark;
   box-sizing: border-box;
   border-radius: 20px;
-  padding: 30px 220px 130px 160px;
-  height: 640px;
-  @include flex(space-between, center, row, nowrap);
+  padding: 30px 220px 130px 157px;
+  @include flex(space-between, flex-start, row, nowrap);
+
+  @include tablet {
+    width: 97.4%;
+    height: 602px;
+    padding: 30px 45px 50px 50px;
+  }
+
+  @include mobile {
+    width: 93.8%;
+    height: 898px;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border-radius: 10px;
+  }
 }

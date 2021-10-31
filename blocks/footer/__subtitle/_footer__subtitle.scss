@@ -2,4 +2,14 @@
   margin: 0 0 174px;
   color: rgba($white, 0.7);
   @include font-style('Inter-Regular', 400, normal, 18px, 26px);
+
+  @include tablet {
+    margin-bottom: 130px;
+  }
+
+  @include mobile {
+    margin-bottom: 95px;
+    font-size: 12px;
+    line-height: 15px;
+  }
 }

@@ -4,4 +4,14 @@
   text-align: center;
   color: $dark;
   @include font-style('Inter-Semi-Bold', 600, normal, 32px, 38px);
+
+  @include tablet {
+    margin-bottom: 24px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+
+  @include mobile {
+    margin-bottom: 20px;
+  }
 }

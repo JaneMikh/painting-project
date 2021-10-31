@@ -35,3 +35,20 @@
   &:-ms-input-placeholder      { @content; }
 }
 
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin tablet-two {
+  @media (max-width: $tablet-two) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: $mobile) {
+    @content;
+  }
+}

@@ -5,7 +5,25 @@
   height: 54px;
   text-align: center;
   color: $dark;
+  position: absolute;
+  top: 456px;
   transition: opacity 0.2s linear 0.1s;
+
+  @include tablet {
+    left: 60px;
+    top: 504px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  @include mobile {
+    left: 30px;
+    top: 834px;
+    font-size: 12px;
+    line-height: 24px;
+    width: 260px;
+    height: 44px;
+  }
 }
 
 .header__button:hover {
