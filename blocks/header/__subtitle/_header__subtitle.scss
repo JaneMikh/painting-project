@@ -1,16 +1,16 @@
 .header__subtitle {
   max-width: 450px;
   color: rgba($white, 0.7);
-  margin: 0 0 108px;
+  margin: 0;
   @include font-style("Inter-Regular", 400, normal, 18px, 26px);
 
   @include tablet {
-    margin-bottom: 250px;
     font-size: 15px;
     line-height: 20px;
   }
+
   @include mobile {
-    margin-bottom: 0;
+    margin-bottom: 50px;
     font-size: 12px;
     line-height: 15px;
   }
