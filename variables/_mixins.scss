@@ -28,6 +28,15 @@
   grid-row-gap: $row-gap;
 }
 
+@mixin tablet-mobile($width, $height, $padding, $grid-column-gap, $grid-columns, $grid-rows) {
+  width: $width;
+  height: $height;
+  padding: $padding;
+  grid-column-gap: $grid-column-gap;
+  grid-template-columns: $grid-columns;
+  grid-template-rows: $grid-rows;
+}
+
 @mixin placeholder {
   &::-webkit-input-placeholder { @content; }
   &:-moz-placeholder           { @content; }
@@ -37,12 +46,6 @@
 
 @mixin tablet {
   @media (max-width: $tablet) {
-    @content;
-  }
-}
-
-@mixin tablet-two {
-  @media (max-width: $tablet-two) {
     @content;
   }
 }

@@ -7,7 +7,7 @@
   transition: opacity 0.2s linear 0.1s;
   @include font-style('Inter-Semi-Bold', 600, normal, 16px, 24px);
 
-  @include tablet-two {
+  @include tablet {
     width: 240px;
     height: 48px;
     font-size: 14px;

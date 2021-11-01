@@ -10,21 +10,11 @@
   @include grid((62.5% 30%), (89% 11%), 82px, 0);
 
   @include tablet {
-    width: 97.4%;
-    height: 602px;
-    padding: 30px 45px 50px 50px;
-    grid-column-gap: 43px;
-    grid-template-columns: 55% 38%;
-    grid-template-rows: 91% 8%;
+    @include tablet-mobile(97.4%, 602px, (30px 45px 50px 50px), 43px, (55% 38%), (91% 8%));
   }
 
   @include mobile {
-    width: 93.8%;
-    height: 898px;
-    padding: 20px;
     border-radius: 10px;
-    grid-column-gap: 0;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(3, auto);
+    @include tablet-mobile(93.8%, 898px, 20px, 0, 100%, repeat(3, auto));
   }
 }
