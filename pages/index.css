@@ -81,7 +81,7 @@
 @media (max-width: 640px) {
   .header__button {
     left: 30px;
-    top: 834px;
+    top: 845px;
     font-size: 12px;
     line-height: 24px;
     width: 260px;
@@ -215,7 +215,6 @@
     max-width: 349px;
     height: 284px;
     margin-right: 10px;
-    margin-bottom: 10px;
     padding: 30px;
   }
 }
@@ -230,7 +229,12 @@
 
 .card:last-of-type {
   margin-right: 0;
-  margin-bottom: 0;
+}
+
+@media (max-width: 640px) {
+  .card_closed {
+    display: none;
+  }
 }
 
 .card__name {
@@ -359,8 +363,7 @@
 
 @media (max-width: 640px) {
   .gallery__image_closed {
-    width: 0;
-    height: 0;
+    display: none;
   }
 }
 
@@ -681,8 +684,7 @@
 }
 @media (max-width: 640px) {
   .footer__image {
-    width: 0;
-    height: 0;
+    display: none;
   }
 }
 
