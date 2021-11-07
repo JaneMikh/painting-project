@@ -2,7 +2,7 @@
   max-width: 450px;
   color: rgba($white, 0.7);
   margin: 0;
-  @include font-style("Inter-Regular", 400, normal, 18px, 26px);
+  @include font-style(400, normal, 18px, 26px);
 
   @include tablet {
     font-size: 15px;

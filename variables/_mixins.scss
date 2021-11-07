@@ -12,8 +12,7 @@
   flex-direction: $direction;
 }
 
-@mixin font-style($font-family, $font-weight, $font-style, $font-size, $line-height) {
-  font-family: $font-family;
+@mixin font-style($font-weight, $font-style, $font-size, $line-height) {
   font-weight: $font-weight;
   font-style: $font-style;
   font-size: $font-size;

@@ -1,7 +1,7 @@
 .footer__subtitle {
   margin: 0;
   color: rgba($white, 0.7);
-  @include font-style('Inter-Regular', 400, normal, 18px, 26px);
+  @include font-style(400, normal, 18px, 26px);
 
   @include mobile {
     margin-bottom: 95px;
