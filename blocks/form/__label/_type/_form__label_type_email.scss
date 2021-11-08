@@ -1,0 +1,5 @@
+.form__label_type_email {
+  @include tablet {
+    grid-row: 2;
+  }
+}

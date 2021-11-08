@@ -1,0 +1,17 @@
+.header__subtitle {
+  max-width: 450px;
+  color: rgba($white, 0.7);
+  margin: 0;
+  @include font-style(400, normal, 18px, 26px);
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  @include mobile {
+    margin-bottom: 50px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}

@@ -1,0 +1,14 @@
+.gallery__items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+
+  @include tablet {
+    padding-bottom: 70px;
+  }
+
+  @include mobile {
+    padding-bottom: 94px;
+  }
+}

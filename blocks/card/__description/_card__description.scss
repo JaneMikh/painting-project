@@ -1,0 +1,10 @@
+.card__description {
+  @include font-style(400, normal, 16px, 24px);
+  color: rgba($black, 0.6);
+  margin: 0;
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}

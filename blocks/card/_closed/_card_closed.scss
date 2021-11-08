@@ -1,0 +1,5 @@
+.card_closed {
+  @include mobile {
+    display: none;
+  }
+}

@@ -1,0 +1,5 @@
+.form__label_type_name {
+  @include tablet {
+    grid-row: 1;
+  }
+}

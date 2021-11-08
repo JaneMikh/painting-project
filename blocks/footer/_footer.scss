@@ -1,0 +1,19 @@
+.footer {
+  max-width: 1420px;
+  margin: 0 auto 10px;
+  height: 470px;
+  box-sizing: border-box;
+  background: $dark;
+  border-radius: 20px;
+  padding: 60px 220px 60px 160px;
+
+  @include grid((45% 30%), (85% 15%), 259px, 0);
+
+  @include tablet {
+    @include tablet-mobile(97.4%, 400px, (50px 69px 50px 50px), 79px, (48% 40%), (84% 16%));
+  }
+
+  @include mobile {
+    @include tablet-mobile(93.8%, 266px, 20px, 0, 100%, repeat(2, auto));
+  }
+}

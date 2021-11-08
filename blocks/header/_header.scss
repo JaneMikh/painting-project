@@ -1,0 +1,20 @@
+.header {
+  width: 98.6%;
+  height: 640px;
+  margin: 10px auto 0;
+  background-color: $dark;
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 30px 220px 130px 160px;
+
+  @include grid((62.5% 30%), (89% 11%), 82px, 0);
+
+  @include tablet {
+    @include tablet-mobile(97.4%, 602px, (30px 45px 50px 50px), 43px, (55% 38%), (91% 8%));
+  }
+
+  @include mobile {
+    border-radius: 10px;
+    @include tablet-mobile(93.8%, 898px, 20px, 0, 100%, repeat(3, auto));
+  }
+}

@@ -1,0 +1,20 @@
+.card__text {
+  max-width: 1103px;
+  @include font-style(600, normal, 60px, 68px);
+  color: $black;
+  margin: 120px auto 120px;
+
+  @include tablet {
+    width: 84%;
+    margin: 60px auto 70px;
+    font-size: 33px;
+    line-height: 37px;
+  }
+
+  @include mobile {
+    width: 81%;
+    margin: 94px auto 70px;
+    font-size: 26px;
+    line-height: 32px;
+  }
+}

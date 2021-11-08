@@ -1,0 +1,11 @@
+.footer__title {
+  margin: 0 0 20px;
+  color: $white;
+  @include font-style(600, normal, 32px, 38px);
+
+  @include mobile {
+    margin-bottom: 14px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}

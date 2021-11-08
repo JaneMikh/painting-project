@@ -1,0 +1,13 @@
+.card__title {
+  min-height: 76px;
+  @include font-style(600, normal, 32px, 38px);
+  color: $black;
+  margin: 20px 0 40px;
+
+  @include tablet {
+    min-height: 62px;
+    margin: 12px 0 50px;
+    font-size: 26px;
+    line-height: 31px;
+  }
+}

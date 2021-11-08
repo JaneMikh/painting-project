@@ -1,0 +1,5 @@
+.gallery__image_closed {
+  @include mobile {
+    display: none;
+  }
+}

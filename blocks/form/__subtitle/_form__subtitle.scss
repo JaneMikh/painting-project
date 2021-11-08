@@ -1,0 +1,16 @@
+.form__subtitle {
+  max-width: 500px;
+  margin: 0 0 100px;
+  text-align: center;
+  color: rgba($black, 0.6);
+  @include font-style(400, normal, 16px, 24px);
+
+  @include tablet {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  @include mobile {
+    margin-bottom: 80px;
+  }
+}
